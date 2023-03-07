@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin-top: 0.4rem;
+}
+
+body {
+    background:url('https://cdna.artstation.com/p/assets/images/images/019/664/584/large/diana-kon-duststorm.jpg?1564497568');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+canvas {
+  border: 1px solid black;
+  background-color: black;
+}
+#number {
+  font-size: 2rem;
+}
+
+#number::selection {
+  color: none;
+  background: none;
+}
+/* For Mozilla Firefox */
+#number::-moz-selection {
+  color: none;
+  background: none;
+}
+
+#button {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 0.2rem 1rem;
+}
+p {
+  width: 45%;
+  height: auto;
+  margin: auto;
+  font-weight: 500;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+p::selection {
+  color: none;
+  background: none;
+}
+/* For Mozilla Firefox */
+p::-moz-selection {
+  color: none;
+  background: none;
+}
+
+h1 {
+  z-index: 100;
+  margin-top: 20rem;
+  position: absolute;
+  left: 22%;
+  font-size: 10rem;
+}
+
+h1::selection {
+  color: none;
+  background: none;
+}
+/* For Mozilla Firefox */
+h1::-moz-selection {
+  color: none;
+  background: none;
+}
+
+#play-again {
+  z-index: 100;
+  margin-top: 20rem;
+  position: absolute;
+  top: 5%;
+  right: 15%;
+  font-size: 5rem;
+}
+
+#winning-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./winning-screen.jpg") repeat;
+}
+
+@media (max-width: 1100px) {
+  p{
+    width: 95%;
+    margin: auto;
+    font-weight: 500;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}

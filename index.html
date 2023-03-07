@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survive Sandstorm!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="winning-screen" hidden></div>
+    <h1 id="winning-text" hidden>YOU BEAT THE SANDSTORM!!</h1>
+    <div id="container">
+      <div id="container-two">
+        <canvas id="canvas" width="580" height="540"></canvas>
+        <span id="number">1:32</span>
+        <button id="button">Start</button>
+        <audio id="audio">
+          <source
+            src="https://ia800704.us.archive.org/10/items/whatisthemusictitle_201811/Darude%20-%20Sandstorm.mp3#t=00:02:09"
+            type="audio/mpeg"
+          />
+        </audio>
+        <p>
+          Click "Start" button to activate game and play song Darude-Sandstorm
+          (audio recommended for full experience). Red dot is you. Mouse and laptop -or- desktop required. Click
+          to dodge yellow dots. Yellow dots speed up over time. Lose if yellow
+          dot touches you (game auto resets). Winning is simple, survive for
+          duration of Sandstorm!
+        </p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
