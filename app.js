@@ -36,7 +36,7 @@ const playerSpeed = 6;
 const numDots = 12;
 let dots = [];
 const dotSize = 10;
-let dotSpeed = 0.75;
+let dotSpeed = 1.75;
 
 // Initialize the dots
 for (let i = 0; i < numDots; i++) {
