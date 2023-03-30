@@ -190,8 +190,9 @@ function gameLoop() {
         window.cancelAnimationFrame = function(id) {
             clearTimeout(id);
         };
-      window.requestAnimationFrame(gameLoop);
+   
 }());
+     window.requestAnimationFrame(gameLoop);
 }
 
 // Start the game loop
