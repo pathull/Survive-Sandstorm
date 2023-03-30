@@ -184,7 +184,7 @@ function checkCollisions() {
 }
 
 // Game loop
-function gameLoap() {
+function gameLoop() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   drawPlayer();
   checkCollisions();
